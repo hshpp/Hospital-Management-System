@@ -150,10 +150,13 @@ python hospital_gui_full.py
 (⚠️ لطفاً پس از اولین ورود، رمز عبور را تغییر دهید).
 
 📸 Screenshots / تصاویر
-https://github.com/hshpp/Hospital-Management-System/blob/main/login.png
-https://github.com/hshpp/Hospital-Management-System/blob/main/dashboard.png
-https://github.com/hshpp/Hospital-Management-System/blob/main/medicalrecord.png
-https://github.com/hshpp/Hospital-Management-System/blob/main/pharmacy.png
+
+![Login](https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/login.png)
+![Dashboard](https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/dashboard.png)
+![Medical Record](https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/medicalrecord.png)
+![Pharmacy](https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/pharmacy.png)
+
+
 📄 License / مجوز
 This project is licensed under the MIT License. / این پروژه تحت مجوز MIT منتشر شده است.
 
