@@ -1,14 +1,6 @@
 # 🏥 Hospital Management System (HMS)
 # 🏥 سیستم جامع مدیریت بیمارستان
 
-<!-- Badges -->
-![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
-![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
-![Status](https://img.shields.io/badge/Status-Active-success)
-
----
-
 ## 🇬🇧 English Description
 
 A comprehensive, fully-featured desktop application designed to manage all aspects of a clinic or hospital. Built with Python and Tkinter, it features a modern UI, complete patient lifecycle management, financial tracking, and inventory control.
