@@ -4,9 +4,9 @@
 <div align="center">
   
   <span style="background-color: #3776AB; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;">Python 3.10+</span>
-  <span style="background-color: #2ECC71; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;"> Tkinter UI </span>
-  <span style="background-color: #003B57; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;"> SQLite DB </span>
-  <span style="background-color: #E67E22; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;">Status : Active</span>
+  <span style="background-color: #2ECC71; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;"> , Tkinter UI </span>
+  <span style="background-color: #003B57; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;"> , SQLite DB </span>
+  <span style="background-color: #E67E22; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;"> , Status : Active</span>
 
 </div>
 
