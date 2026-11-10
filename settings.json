@@ -1,0 +1,10 @@
+{
+  "printers": {
+    "default": "",
+    "prescription": "",
+    "invoice": "",
+    "report": "",
+    "receipt": ""
+  },
+  "dark_mode": false
+}
