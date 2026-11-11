@@ -1,6 +1,8 @@
 # 🏥 Hospital Management System (HMS)
 # 🏥 سیستم جامع مدیریت بیمارستان
 
+Email : spacex.nasa.starlink@gmail.com
+
 <div align="center">
   
   <span style="background-color: #3776AB; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;">Python 3.10+</span>
@@ -164,6 +166,8 @@ This project is licensed under the MIT License. / این پروژه تحت مج�
 👨‍💻 Developer / توسعه‌دهنده
 
 [Hossein Shahabi / حسین شهابی]
+
+Email : spacex.nasa.starlink@gmail.com
 
 GitHub: [@hshpp](https://github.com/hshpp/Hospital-Management-System.git)
 
