@@ -1,174 +1,144 @@
-# 🏥 Hospital Management System (HMS)
-# 🏥 سیستم جامع مدیریت بیمارستان
-
-Email : spacex.nasa.starlink@gmail.com
-
 <div align="center">
-  
-  <span style="background-color: #3776AB; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;">Python 3.10+</span>
-  <span style="background-color: #2ECC71; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;"> , Tkinter UI </span>
-  <span style="background-color: #003B57; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;"> , SQLite DB </span>
-  <span style="background-color: #E67E22; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin: 0 5px;"> , Status : Active</span>
+
+# 🏥 Hospital Management System (HMS)
+### سیستم جامع مدیریت بیمارستان
+
+<!-- Badges -->
+![Python Version](https://badgen.net/badge/Python/3.10+/blue)
+![Tkinter](https://badgen.net/badge/GUI/Tkinter/green)
+![SQLite](https://badgen.net/badge/Database/SQLite/lightgrey)
+![Status](https://badgen.net/badge/Status/Active/success)
 
 </div>
+
+---
 
 ## 🇬🇧 English Description
 
 A comprehensive, fully-featured desktop application designed to manage all aspects of a clinic or hospital. Built with Python and Tkinter, it features a modern UI, complete patient lifecycle management, financial tracking, and inventory control.
 
 ### ✨ Key Features
-
-*   **🔐 Role-Based Access Control:** Secure login system with roles (Admin, Doctor, Receptionist, Pharmacist).
-*   **📊 Dynamic Dashboard:** Real-time statistics, 7-day revenue charts (Matplotlib), Top Doctors/Medicines, and appointment alerts.
-*   **👥 Patient & Doctor Management:** Full CRUD operations, patient timelines, and medical histories.
-*   **📅 Appointment System:** Scheduling, reminders for today/tomorrow, and conflict prevention.
-*   **📋 Medical Records:** Electronic health records (EHR) with vital signs, diagnoses, and a smart prescription writer.
-*   **🧪 Laboratory Module:** Request lab tests, input results, and link them directly to patient medical records.
-*   **💊 Pharmacy & Inventory:** Stock management, direct sales, dispensing based on prescriptions, and low-stock alerts.
-*   **💰 Billing & Payments:** Automated invoice generation for visits, pharmacy, and lab tests. Integrated PDF printing with Persian support.
-*   **🖨️ Advanced Printing:** Custom printer routing (e.g., send prescriptions to a specific printer and invoices to another) with virtual PDF fallback.
-*   **💾 Backup & Security:** Automated daily database backups, permanent archives, and a comprehensive system Audit Log.
-*   **🎨 Modern UI:** Responsive design, rounded buttons, dark mode support, and highly customized Tkinter interface.
+*   **🔐 Role-Based Access Control:** Secure login with roles (Admin, Doctor, Receptionist, Pharmacist).
+*   **📊 Dynamic Dashboard:** Real-time stats, 7-day revenue charts, Revenue Breakdown Pie Chart, Top Doctors/Medicines.
+*   **👥 Patient & Doctor Management:** Full CRUD, patient timelines, and medical histories.
+*   **📅 Appointment System:** Scheduling, reminders, and conflict prevention.
+*   **📋 Medical Records:** EHR with vital signs, diagnoses, and smart prescription writer.
+*   **🧪 Laboratory:** Direct & Prescription-based lab requests, result entry, linked to records.
+*   **💊 Pharmacy:** Stock management, direct sales, dispensing, and low-stock alerts.
+*   **💰 Billing & Reports:** Automated invoices. Detailed Daily/Weekly/Monthly/Yearly reports for Visits, Pharmacy, and Lab with **Export to Excel (with Charts)** and PDF Printing.
+*   **💾 Backup & Security:** Automated backups, permanent archives, and system Audit Log.
+*   **🎨 Modern UI:** Responsive design, rounded buttons, dark mode, and customized Tkinter interface.
 
 ### 🛠️ Tech Stack
 *   **Language:** Python 3
-*   **GUI Framework:** Tkinter (Customized with Canvas)
+*   **GUI Framework:** Tkinter
 *   **Database:** SQLite3
 *   **Data Visualization:** Matplotlib
 *   **PDF Generation:** FPDF2, Arabic Reshaper, Python-Bidi
 *   **Excel Export:** OpenPyXL
 
-### 🚀 Development Setup (Running from Source)
+### 🚀 Installation & Usage
 
-> ⚠️ **Note:** This project is currently in active development. The final executable (`.exe`) and packaging will be provided upon final release.
+> ⚠️ **Note:** The final executable (`.exe`) is available. You can download it and run the app without installing Python.
 
-To run the source code for development or testing purposes:
+#### Option 1: Run the Executable (Windows)
+1. Download `HospitalMS.exe` from the Releases section.
+2. Ensure `Vazirmatn-Regular.ttf` is in the same folder (if not bundled).
+3. Double-click the `.exe` file to run.
 
+#### Option 2: Run from Source (Developers)
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YourUsername/Hospital-Management-System.git
+   git clone https://github.com/hshpp/Hospital-Management-System.git
    cd Hospital-Management-System
    
-Create a virtual environment (Optional but recommended):
 
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
-
-Install dependencies:
+2. Install dependencies:
 
 pip install -r requirements.txt
 
-Initialize the Database:
-(Note: The hospital.db is ignored by Git. Run the setup script to create tables and the default admin user).
+3. Initialize the Database:
 
 python setup_database.py
 
-Run the application:
+4. Run the application:
 
 python hospital_gui_full.py
 
- Default Credentials (For Testing)
+🔑 Default Credentials
 Username: admin
 
 Password: admin123
-(⚠️ Please change this immediately after first login in production).
+(⚠️ Please change this immediately after first login).
 
 🇮🇷 توضیحات فارسی
-یک نرم‌افزار دسکتاپ جامع و کامل برای مدیریت تمام بخش‌های یک کلینیک یا بیمارستان. این پروژه با زبان پایتون و کتابخانه Tkinter ساخته شده و دارای رابط کاربری مدرن، مدیریت چرخه کامل بیمار، پیگیری مالی و کنترل موجودی انبار است.
+یک نرم‌افزار دسکتاپ جامع برای مدیریت تمام بخش‌های یک کلینیک. این پروژه با پایتون و Tkinter ساخته شده و دارای رابط کاربری مدرن، مدیریت چرخه کامل بیمار، پیگیری مالی و کنترل موجودی است.
 
 ✨ ویژگی‌های کلیدی
-🔐 کنترل دسترسی بر اساس نقش: سیستم ورود امن با نقش‌های مختلف (مدیر سیستم، پزشک، پذیرش، داروساز).
+🔐 کنترل دسترسی: سیستم ورود امن با نقش‌های مختلف.
 
-📊 داشبورد پویا: آمار لحظه‌ای، نمودار درآمد ۷ روز اخیر (با Matplotlib)، برترین پزشکان و داروها، و هشدار نوبت‌های امروز و فردا.
+📊 داشبورد پویا: آمار لحظه‌ای، نمودار درآمد ۷ روز اخیر، نمودار دایره‌ای سهم درآمدها، برترین پزشکان و داروها.
 
-👥 مدیریت بیماران و پزشکان: عملیات کامل ثبت، ویرایش و حذف، خط زمانی بیمار (Timeline) و تاریخچه پزشکی.
+👥 مدیریت بیماران و پزشکان: عملیات کامل، خط زمانی بیمار.
 
-📅 سیستم نوبت‌دهی: زمان‌بندی، یادآوری نوبت‌ها و جلوگیری از تداخل زمانی.
+📅 سیستم نوبت‌دهی: زمان‌بندی و یادآوری.
 
-📋 پرونده‌های پزشکی: ثبت علائم حیاتی، تشخیص، و یک سیستم هوشمند نسخه‌نویسی با کادرهای Spinbox برای سهولت کار پزشک.
+📋 پرونده‌های پزشکی: ثبت علائم حیاتی، تشخیص، نسخه‌نویسی هوشمند.
 
-🧪 ماژول آزمایشگاه: درخواست آزمایش از داخل پرونده، ثبت نتیجه و اتصال خودکار نتیجه به پرونده بیمار.
+🧪 آزمایشگاه: تفکیک آزمایش آزاد و نسخه‌ای، ثبت نتیجه و اتصال به پرونده.
 
-💊 داروخانه و انبار: مدیریت موجودی، فروش آزاد، تحویل دارو بر اساس نسخه، و هشدار اتمام موجودی.
+💊 داروخانه: مدیریت انبار، فروش آزاد، تحویل نسخه، هشدار موجودی.
 
-💰 صورت‌حساب و پرداخت: صدور فاکتور خودکار برای ویزیت، داروخانه و آزمایشگاه. پشتیبانی از پرینت PDF با فونت فارسی.
+💰 گزارش‌گیری مالی: صدور فاکتور. گزارش‌های تفصیلی روزانه/هفتگی/ماهانه/سالانه برای ویزیت، داروخانه و آزمایشگاه همراه با خروجی اکسل (دارای نمودار) و پرینت PDF.
 
-🖨️ پرینت پیشرفته: تنظیم پرینتر اختصاصی برای هر سند (مثلاً نسخه‌ها به یک پرینتر و فاکتورها به پرینتر دیگر) با قابلیت ذخیره به عنوان PDF.
+💾 بکاپ و امنیت: بکاپ خودکار روزانه و سیستم ثبت لاگ (Audit Log).
 
-💾 بکاپ‌گیری و امنیت: بکاپ خودکار روزانه از دیتابیس، آرشیو دائمی، و سیستم ثبت لاگ (Audit Log) برای تمام فعالیت‌های سیستم.
+🎨 رابط کاربری مدرن: واکنش‌گرا، دکمه‌های گرد، پشتیبانی از حالت تاریک.
 
-🎨 رابط کاربری مدرن: طراحی واکنش‌گرا (Responsive)، دکمه‌های گرد، پشتیبانی از حالت تاریک (Dark Mode) و ظاهری کاملاً سفارشی‌سازی شده.
+🚀 نصب و راه‌اندازی
+⚠️ نکته: نسخه نهایی و فایل نصبی (.exe) آماده شده است. نیازی به نصب پایتون برای اجرای آن نیست.
 
-🛠️ تکنولوژی‌های استفاده شده
-زبان برنامه‌نویسی: Python 3
+روش اول: اجرای فایل نصبی (ویندوز)
+فایل HospitalMS.exe را دانلود کنید.
 
-رابط کاربری: Tkinter (سفارشی‌سازی شده با Canvas)
+روی فایل دوبار کلیک کنید تا برنامه اجرا شود.
 
-دیتابیس: SQLite3
+روش دوم: اجرای کدها (برای توسعه‌دهندگان)
+۱. دریافت پروژه:
 
-نمودارها: Matplotlib
+git clone https://github.com/hshpp/Hospital-Management-System.git
 
-ساخت PDF: FPDF2, Arabic Reshaper, Python-Bidi
-
-خروجی اکسل: OpenPyXL
-
-🚀 راه‌اندازی محیط توسعه (اجرای کدها)
-⚠️ نکته: این پروژه در حال حاضر در مرحله توسعه فعال قرار دارد. نسخه نهایی و فایل نصبی (.exe) پس از اتمام کار ارائه خواهد شد.
-
-برای اجرای سورس‌کد جهت توسعه یا تست:
-
-۱. دریافت پروژه (Clone):
-
-git clone https://github.com/YourUsername/Hospital-Management-System.git
-cd Hospital-Management-System
-
-۲. ساخت محیط مجازی (پیشنهادی):
-
-python -m venv venv
-# ویندوز:
-venv\Scripts\activate
-# مک/لینوکس:
-source venv/bin/activate
-
-۳. نصب پیش‌نیازها:
+۲. نصب پیش‌نیازها:
 
 pip install -r requirements.txt
 
-۴. ساخت دیتابیس (بار اول):
-(نکته: چون فایل hospital.db در گیت آپلود نمی‌شود، باید اسکریپت ساخت جداول را یک بار اجرا کنید.)
+۳. ساخت دیتابیس:
 
 python setup_database.py
 
-۵. اجرای برنامه:
+۴. اجرای برنامه:
 
 python hospital_gui_full.py
 
-🔑 اطلاعات ورود پیش‌فرض (برای تست)
-نام کاربری (Username): admin
+🔑 اطلاعات ورود پیش‌فرض
+نام کاربری: admin
 
-رمز عبور (Password): admin123
-(⚠️ لطفاً پس از اولین ورود، رمز عبور را تغییر دهید).
+رمز عبور: admin123
 
 📸 Screenshots / تصاویر
 
-![Login](https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/login.png)
-![Dashboard](https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/dashboard.png)
-![Medical Record](https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/medicalrecord.png)
-![Pharmacy](https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/pharmacy.png)
-
+<div align="center"> <img src="https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/login.png" width="48%" /> 
+<img src="https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/dashboard.png" width="48%" /> <br><br> 
+<img src="https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/medicalrecord.png" width="48%" /> 
+<img src="https://raw.githubusercontent.com/hshpp/Hospital-Management-System/main/pharmacy.png" width="48%" /> </div> <br>
 
 📄 License / مجوز
 This project is licensed under the MIT License. / این پروژه تحت مجوز MIT منتشر شده است.
 
 👨‍💻 Developer / توسعه‌دهنده
-
-[Hossein Shahabi / حسین شهابی]
+Hossein Shahabi / حسین شهابی
 
 Email : spacex.nasa.starlink@gmail.com
 
-GitHub: [@hshpp](https://github.com/hshpp/Hospital-Management-System.git)
-
+GitHub: @hshpp
 
