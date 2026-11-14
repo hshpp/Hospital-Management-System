@@ -71,6 +71,8 @@ Username: admin
 Password: admin123
 (⚠️ Please change this immediately after first login).
 
+Linkedin = [https://www.linkedin.com/in/%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D9%87%D8%A7%D8%A8%DB%8C-90a49844b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTNQkoSWnTdqExHUuHqAMLg%3D%3D]
+
 🇮🇷 توضیحات فارسی
 یک نرم‌افزار دسکتاپ جامع برای مدیریت تمام بخش‌های یک کلینیک. این پروژه با پایتون و Tkinter ساخته شده و دارای رابط کاربری مدرن، مدیریت چرخه کامل بیمار، پیگیری مالی و کنترل موجودی است.
 
@@ -141,4 +143,6 @@ Hossein Shahabi / حسین شهابی
 Email : spacex.nasa.starlink@gmail.com
 
 GitHub: @hshpp
+
+Linkedin = [https://www.linkedin.com/in/%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D9%87%D8%A7%D8%A8%DB%8C-90a49844b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTNQkoSWnTdqExHUuHqAMLg%3D%3D]
 
